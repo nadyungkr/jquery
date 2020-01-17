@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("h1").filter(":odd").css({
+        backgroundColor:"#000",
+        color:"#fff"
+    });
+    /*$("h1:odd").css("background","000").css("color","fff");
+    $("h1:odd").css({
+        backgroundColor:"#000",
+        color:"#fff"            
+    });*/
+});
