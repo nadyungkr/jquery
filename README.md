@@ -126,6 +126,7 @@
 
 ### How to insert a comment that has more than one line?
 > /*This comment has<br>more than one line*/
+> /와 *(별)을 사용
 
 ### What is the correct way to write a JavaScript array?
 > var colors = ["red", "green", "blue"]  
