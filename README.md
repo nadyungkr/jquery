@@ -125,8 +125,7 @@
 > <code>//This is a comment</code>
 
 ### How to insert a comment that has more than one line?
-> <code>/*This comment has
-more than one line*/</code>
+> <code>/*This comment has<br>more than one line*/</code>
 
 ### What is the correct way to write a JavaScript array?
 > var colors = ["red", "green", "blue"]  
