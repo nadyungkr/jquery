@@ -122,10 +122,10 @@
 > for (i = 0; i <= 5; i++)  
 
 ### How can you add a comment in a JavaScript?
-> <code>//This is a comment</code>
+> //This is a comment
 
 ### How to insert a comment that has more than one line?
-> <code>/*This comment has<br>more than one line*/</code>
+> /*This comment has<br>more than one line*/
 
 ### What is the correct way to write a JavaScript array?
 > var colors = ["red", "green", "blue"]  
