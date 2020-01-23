@@ -51,7 +51,9 @@
 ### Which jQuery function is used to prevent code from running, before the document is finished loading?
 > $(document).ready()
 
-### Which jQuery method should be used to deal with name conflicts?
+
+### Which jQuery method should be used
+ to deal with name conflicts?
 > noConflict()
 
 ### Which jQuery method is used to switch between adding/removing one or more classes (for CSS) from selected elements?
@@ -77,4 +79,86 @@
 
 ### The jQuery animate() method can be used to animate ANY CSS property?
 > Only properties containing numeric values
+
+## W3School javascript 기본 문제 풀기
+
+### Inside which HTML element do we put the JavaScript?
+> <script>
+
+### What is the correct JavaScript syntax to change the content of the HTML element below?
+<p id="demo">This is a demonstration.</p>  
+
+> document.getElementById("demo").innerHTML="Hello World!";
+
+### Where is the correct place to insert a JavaScript?
+> Both the <head> section and the <body> section are correct 
+
+### What is the correct syntax for referring to an external script called "xxx.js"?
+> <script src="xxx.js">
+
+### The external JavaScript file must contain the <script> tag.
+> False (O)
+> True ()
+
+### How do you write "Hello World" in an alert box?
+> alert("Hello World");
+
+### How do you create a function in JavaScript?
+> function myFunction()  
+
+### How do you call a function named "myFunction"?
+> myFunction()  
+
+### How to write an IF statement in JavaScript?
+> if (i == 5)  
+
+### How to write an IF statement for executing some code if "i" is NOT equal to 5?
+> if (i != 5)  
+
+### How does a WHILE loop start?
+> while (i <= 10)  
+
+### How does a FOR loop start?
+> for (i = 0; i <= 5; i++)  
+
+### How can you add a comment in a JavaScript?
+> <code>//This is a comment</code>
+
+### How to insert a comment that has more than one line?
+> <code>/*This comment has
+more than one line*/</code>
+
+### What is the correct way to write a JavaScript array?
+> var colors = ["red", "green", "blue"]  
+
+### How do you round the number 7.25, to the nearest integer?
+> Math.round(7.25)  
+
+### How do you find the number with the highest value of x and y?
+> Math.max(x, y)  
+
+### What is the correct JavaScript syntax for opening a new window called "w2" ?
+> w2 = window.open("http://www.w3schools.com");  
+
+### JavaScript is the same as Java.
+> False (O)
+> True ()
+
+### How can you detect the client's browser name?
+> navigator.appName  
+
+### Which event occurs when the user clicks on an HTML element?
+> onClick
+
+### How do you declare a JavaScript variable?
+> var carName;  
+
+### Which operator is used to assign a value to a variable?
+> =
+
+### What will the following code return: Boolean(10 > 9)
+> true  
+
+### Is JavaScript case-sensitive?
+> Yes
 
