@@ -162,3 +162,105 @@
 ### Is JavaScript case-sensitive?
 > Yes
 
+============
+  
+## jQuery Selectors
+- $("태그").메소드()
+- $("#아이디").메소드()
+- $(".클래스").메소드()
+- $(this).메소드()
+
+## jQuery Event
+- jQuery click()
+- jQuery dbclick()
+- jQuery mouseenter()
+- jQuery mouseleave()
+- jQuery mousedown
+- jQuery mouseup
+- jQuery hover
+- jQuery focus() and blur()
+
+## jQuery Hide/Show
+- jQuery hide()
+- jQuery hide() and show()
+- jQuery toggle
+- jQuery hide()
+
+## jQuery Fade
+- jQuery fadeIn()
+- jQuery fadeOut()
+- jQuery fadeToggle()
+- jQuery fadeTo()
+
+## jQuery Slide
+- jQuery slideDown()
+- jQuery slideUp()
+- jQuery slideToggle()
+
+## jQuery Animate
+- jQuery animate()
+
+## jQuery Stop Animations
+- jQuery stop() sliding
+- jQuery stop() animation (with parameters)
+
+## jQuery HTML Get Content and Attributes
+- jQuery text(), html(), and val()
+- jQuery text() and html()
+- jQuery attr()
+
+## jQuery HTML Add Elements/Content
+- jQuery append()
+- jQuery prepend()
+- jQuery after() and before()
+- jQuery after()
+
+## jQuery HTML Remove Elements/Content
+- jQuery remove()
+- jQuery empty()
+
+## jQuery Get and Set CSS Classes
+- jQuery addClass()
+- jQuery removeClass()
+- jQuery toggleClass()
+
+## jQuery css() Method
+- jQuery css()
+
+## jQuery Dimensions
+- jQuery - return width() and height()
+- jQuery - return innerWidth() and innerHeight()
+- jQuery - return outerWidth() and outerHeight()
+- jQuery - return outerWidth(true) and OuterHeight(true)
+- jQuery - return width() and height() of document and window
+- jQuery - set width() and height()
+
+## jQuery Traversing Ancestors
+- jQuery parent()
+- jQuery parents()
+- jQuery parentsUntil()
+
+## jQuery Traversing Siblings
+- jQuery siblings()
+- jQuery next()
+- jQuery nextAll()
+- jQuery nextUntil()
+
+## jQuery Traversing Filtering
+- jQuery first()
+- jQuery last()
+- jQuery eq()
+- jQuery filter()
+- jQuery not()
+
+## jQuery Filters
+- Filter table
+- Filter list
+- Filter anything
+
+## jQuery AJAX load() Method
+- jQuery load()
+
+## jQuery AJAX get() and post() Methods
+- jQuery get()
+- jQuery post()
