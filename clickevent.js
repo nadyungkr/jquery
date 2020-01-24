@@ -9,3 +9,10 @@ $(document).ready(function(){
       $(this).hide();
     });
 });
+
+$(document).ready(function(){
+    $("h4").click(function(){
+        $(this).hide();
+    });
+
+});
