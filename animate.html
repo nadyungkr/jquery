@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box-1{
+            background:peachpuff;
+            height:100px;
+            width:100px;
+            position:absolute;
+            top:200px;
+            left:50%;
+            transform:translateX(-50%);
+        }
+        #box-2{
+            background:peru;
+            height:100px;
+            width:100px;
+            position:absolute;
+            top:400px;
+            right:800px;
+        }
+        #box-3{
+            background:rosybrown;
+            width:200px;
+            height:100px;
+            position:absolute;
+            top:600px;
+            left:50%;
+        }
+        #box-4{
+            background:seagreen;
+            width:40px;
+            height:40px;
+            position: absolute;
+            top:700px;
+            left:10%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="animate.js"></script>
+</head>
+<body>
+    <p>HTML 모든 요소는 정적 위치를 가지기 때문에 이동할 수 없다. 따라서 CSS 위치 속성을 정해주어야 한다.</p>
+    <p>position:absolute, relative, fixed</p>
+    <button>Start Animate</button>
+    <div id="box-1"></div>
+    <h2>여기도 클릭해서 animate를 확인해보세요</h2>
+    <div id="box-2"></div>
+    <h3>여기도 클릭하면 toggle도 확인할 수 있어요</h3>
+    <div id="box-3"></div>
+    <h1>변수를 선언하여 여러가지 에니메이션도 한번에<br/>넣을 수 있습니다
+        클릭해보세요</h1>
+    <div id="box-4"></div>
+</body>
+</html>
