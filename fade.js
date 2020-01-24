@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#box1").fadeIn();
+        $("#box2").fadeIn("slow");
+        $("#box3").fadeIn(3000);
+    });
+    $("h4").click(function(){
+        $("#box4").fadeOut();
+        $("#box5").fadeOut("slow");
+        $("#box6").fadeOut(3000);
+    });
+    $("h3").click(function(){
+        $("#box-1").fadeToggle();
+        $("#box-2").fadeToggle("slow");
+        $("#box-3").fadeToggle(3000);
+    });
+    $("h2").click(function(){
+        $("#box-4").fadeTo("slow",0.15);
+        $("#box-5").fadeTo("slow",0.4);
+        $("#box-6").fadeTo("slow",0.65);
+    });
+});
