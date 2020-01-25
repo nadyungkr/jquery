@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#btn1").click(function(){
+      $("#div1").remove();
+    });
+    $("#btn2").click(function(){
+        $("p").remove(".text1");
+      });
+    $("#btn3").click(function(){
+        $("#div3").empty();
+    });
+  });

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="Add Elements.js"></script>
+</head>
+<body>
+    <pre>
+        append() -선택한 요소의 끝에 내용을 삽입
+        prepend() -선택한 요소의 시작 부분에 내용을 삽입
+        after() -선택한 요소 뒤에 내용을 삽입
+        before() -선택한 요소 앞에 내용을 삽입
+
+        위append()및 prepend()메소드 모두 무한한 수의 새로운 요소를 매개 변수로 사용할 수 있음
+        새로운 요소는 텍스트 / HTML,
+        jQuery 또는 JavaScript 코드 및 DOM 요소로 생성 할 수 있음
+        
+        after() 및 before()도 마찬가지
+        after, before의 경우 이미지 같은 요소 뒤에 사용함
+    </pre>
+
+    <p>여기에 문장을 덧붙여 볼까</p>
+    <ol>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+    </ol>
+    <button id="btn1">문장 덧붙이기</button>
+    <button id="btn2">리스트 아이템 뒤로 추가하기</button>
+    <button id="btn3">문장 앞에 붙이기</button>
+    <button id="btn4">리스트 아이템 앞으로 추가하기</button>
+    <h3>append, prepend를 html,jquery,dom에 새로 추가하여 써보기</h3>
+    <button onclick="appendText()">append 써보자</button>
+</body>
+</html>

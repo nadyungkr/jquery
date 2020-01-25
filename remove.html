@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div3{
+            background: palevioletred;
+            width:500px;
+            height:500px;
+            border:1px solid #000;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="remove.js"></script>
+</head>
+<body>
+    <pre>
+        remove() 메소드와 empty()메소드
+        remove() - 선택한 요소 및 해당 하위 요소 제거
+        empty() - 선택한 요소에서 자식 요소를 제거
+    </pre>
+    <div id="div1">
+
+        텍스트들이 보이시나요?
+        <p>remove로 깔끔히 지워볼게요</p>
+        <p>버튼을 클릭하면 전부 사라집니다</p>
+        
+    </div>
+    <br>
+    <button id="btn1">Remove div element</button>
+    <div id="div2">
+
+        텍스트들이 보이시나요?
+        <p class="text1">remove로 요부분만 깔끔히 지워볼게요</p>
+        <p>버튼을 클릭하면 사라집니다</p>
+        
+    </div>
+    <br>
+    <button id="btn2">Remove p element</button>
+    <div id="div3">
+        이번에는 상자만 뿅 남는 마술 보여드릴게요
+        <p>여기 텍스트들 전부 지워질거에요</p>
+        <p>버튼을 눌러보세요</p>
+    </div>
+    <button id="btn3">Empty the div element</button>
+</body>
+</html>
