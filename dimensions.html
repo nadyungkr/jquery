@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div1{
+            height: 100px;
+            width: 300px;
+            padding: 10px;
+            margin: 3px;
+            border: 1px solid blue;
+            background-color: lightblue;
+        }
+        #div2{
+            height: 100px;
+            width: 300px;
+            padding: 10px;
+            margin: 3px;
+            border: 1px solid palevioletred;
+            background-color: peachpuff;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="dimensions.js"></script>
+</head>
+<body>
+    <div id="div1"></div>
+    <br>
+    <button id="btn1">Display dimensions of div</button>
+    <p>width() - returns the width of an element.</p>
+    <p>height() - returns the height of an element.</p>
+    <button id="btn2">Display dimensions of div</button>
+    <p>innerWidth() - returns the width of an element (includes padding).</p>
+    <p>innerHeight() - returns the height of an element (includes padding).</p>
+    <button id="btn3">Display dimensions of div</button>
+    <p>outerWidth() - returns the width of an element (includes padding and border).</p>
+    <p>outerHeight() - returns the height of an element (includes padding and border).</p>
+    <button id="btn4">Display dimensions of div</button>
+    <p>outerWidth(true) - returns the width of an element (includes padding, border, and margin).</p>
+    <p>outerHeight(true) - returns the height of an element (includes padding, border, and margin).</p>
+    <button id="btn5">Display dimensions of document and window</button>
+    <div id="div2"></div>
+    <br/>
+    <button id="btn6">Resize div</button>
+</body>
+</html>
