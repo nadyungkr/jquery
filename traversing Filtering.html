@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            border:1px solid black;
+            margin:20px 0;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="traversing Filtering.js"></script>
+</head>
+<body>
+    <h1>버튼 누르고 초기화를 꼭 눌러주세요 헷갈리지 않게</h1>
+    <br/>
+    <p>This is a paragraph.</p>
+    <div>(index 0)
+        <p>A paragraph in a div.</p>
+        <p>Another paragraph in a div.</p>
+    </div>
+    <div>(index 1)
+        <p>A paragraph in another div.</p>
+        <p>Another paragraph in another div.</p>
+    </div>
+    <div>(index 2)
+        <p>A paragraph in another div.</p>
+        <p>Another paragraph in another div.</p>
+    </div>
+    <div class="index3">(index 3)
+        <p>A paragraph in another div.</p>
+        <p>Another paragraph in another div.</p>
+    </div>
+    <div>(index 4)
+        <p>A paragraph in another div.</p>
+        <p>Another paragraph in another div.</p>
+    </div>
+    <button id="btn1">div first()</button>
+    <button id="btn2">div last()</button>
+    <button id="btn3">div eq(2)</button>
+    <button id="btn4">div filter(".index3")</button>
+    <button id="btn5">div not(".index3")</button>
+    <button id="btn6">reset</button>
+</body>
+</html>

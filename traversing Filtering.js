@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("div").first().css({"background-color":"peachpuff"});
+    });
+    $("#btn2").click(function(){
+        $("div").last().css({"background-color":"peachpuff"});
+    });
+    $("#btn3").click(function(){
+        $("div").eq(2).css({"background-color":"peachpuff"});
+    });
+    $("#btn4").click(function(){
+        $("div").filter(".index3").css({"background-color":"peachpuff"});
+    });
+    $("#btn5").click(function(){
+        $("div").not(".index3").css({"background-color":"peachpuff"});
+    });
+    $("#btn6").click(function(){
+        $("div").css({"background-color":"transparent"});
+    });
+});
