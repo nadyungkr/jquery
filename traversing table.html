@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            height:800px;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:space-around;
+        }
+        table {
+            font-size:14px;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        td{
+            width:30%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="traversing table.js"></script>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="Search..">
+    <table>
+        <colgroup> 
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+        </colgroup>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>취미</th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+            <tr>
+                <td>박나듕</td>
+                <td>25</td>
+                <td>떡볶이 먹기</td>
+            </tr>
+            <tr>
+                <td>나동이</td>
+                <td>18</td>
+                <td>컴퓨터 게임</td>
+            </tr>
+            <tr>
+                <td>펭수</td>
+                <td>1</td>
+                <td>방송하기</td>
+            </tr>
+            <tr>
+                <td>나니</td>
+                <td>25</td>
+                <td>컴퓨터 게임</td>
+            </tr>
+        </tbody>
+      </table>
+      <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+</body>
+</html>
