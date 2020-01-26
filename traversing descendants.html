@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .descendants * { 
+        display: block;
+        border: 2px solid lightgrey;
+        color: lightgrey;
+        padding: 5px;
+        margin: 15px;
+    }
+    div{
+        width:500px;
+    }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="traversing descendants.js"></script>
+</head>
+<body>
+    <div class="descendants div1">div (current element) 
+        <p>p (child)
+          <span>span (grandchild)</span>   
+        </p>
+        <p>p (child)
+          <span>span (grandchild)</span>
+        </p> 
+    </div>
+    <button id="btn1">traversing children</button>
+    <div class="descendants div2">div (current element) 
+        <p>p (child)
+          <span>span (grandchild)</span>   
+        </p>
+        <p>p (child)
+          <span>span (grandchild)</span>
+        </p> 
+    </div>
+    <button id="btn2">traversing find</button>
+</body>
+</html>
