@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+          margin:0;
+          padding:0;
+        }
+        .ancestors * { 
+            display: block;
+            border: 2px solid lightgrey;
+            color: lightgrey;
+            padding: 5px;
+            margin: 15px;
+        }
+        div{
+            width:500px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="traversing ancestors.js"></script>
+</head>
+<body>
+    <section class="ancestors">
+        <div>div (great-grandparent)
+          <ul>ul (grandparent)  
+            <li>li (direct parent)
+              <span class="span1">span</span>
+            </li>
+          </ul>   
+        </div>
+      <br/>
+        <div>div (grandparent)   
+          <p>p (direct parent)
+            <span class="span1">span</span>
+          </p> 
+        </div>
+    </section>
+    <button id="btn1">traversing parent</button>
+    <section class="ancestors">section (great-great-grandparent)
+      <div>div (great-grandparent)
+        <ul>ul (grandparent)  
+          <li>li (direct parent)
+            <span class="span2">span</span>
+          </li>
+        </ul>   
+      </div>
+    </section>
+    <button id="btn2">traversing parents</button>
+    <section class="ancestors"> section (great-great-grandparent)
+      <div class="div1">div (great-grandparent)
+        <ul>ul (grandparent)  
+          <li>li (direct parent)
+            <span class="span3">span</span>
+          </li>
+        </ul>   
+      </div>
+    </section>
+    <button id="btn3">div와 span사이 traversing parentsUntill</button>
+</body>
+</html>
