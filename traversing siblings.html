@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .siblings *{
+            display:block;
+            border:2px solid lightgrey;
+            color:lightgrey;
+            padding:5px;
+            margin:15px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="traversing siblings.js"></script>
+</head>
+<body>
+    <section class="siblings">
+        <div>div (parent)
+            <p>p</p>
+            <span>span</span>
+            <h2 class="me1">나를 기준으로</h2>
+            <h3>h3</h3>
+            <p>p</p>
+            <h4>h4</h4>
+            <h5>h5 여기까지</h5>       
+        </div>
+    </section>
+    <button id="btn2">나를 기준으로 next()</button>
+    <button id="btn1">나를 기준으로 siblings()</button>
+    <button id="btn3">나를 기준으로 nextAll()</button>
+    <button id="btn4">나를 기준으로 nextUntil("h5") 여기까지</button>
+    <button id="btn5">reset</button>
+</body>
+</html>
