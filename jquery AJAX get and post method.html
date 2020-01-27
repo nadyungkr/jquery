@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery AJAX get and post method.js"></script>
+</head>
+<body>
+    <pre>
+        jQuery get() 및 post () 메소드는 HTTP GET 또는 POST 요청으로 서버에서 데이터를 요청하는데 사용됨
+
+        HTTP 요청 : GET 과 POST
+        클라이언트와 서버간의 요청 - 응답에 일반적으로 사용되는 두가지 방법은
+        GET, POST
+        
+        GET: 지정된 자원에서 데이터를 요청
+        POST: 처리 할 데이터를 지정된 자원으로 제출
+
+        GET은 기본적으로 서버에서 일부 데이터를 가져오는 데 사용됨
+        참고: GET 메소드는 캐시 된 데이터를 리턴할 수 있음
+        POST는 서버에서 일부 데이터를 얻는데 사용될 수 있으나 POST 메소드는 절대로 데이터를 캐시하지 않으며 종종 요청과 함께 데이터를 보내는 데 사용됨.
+
+        이 $.get() 메소는 HTTP GET 요청으로 서버에서 데이터를 요청
+        통사론:
+        $.get(URL,CALLBACK);
+        필수 URL 매개 변수는 요청하려는 URL을 지정
+
+        선택적 콜백 매개 변수는 요청이 성공하면 실행될 함수의 이름
+    </pre>
+    <div id="div1"><h3>여기에 불러와볼까</h3></div>
+    <button id="btn1"></button>
+</body>
+</html>
