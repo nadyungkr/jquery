@@ -4,9 +4,31 @@
     eq(1)
 
 */
+
 $(document).ready(function(){
     $("h1").first().css("background","pink");
     $("h1").eq(1).css("background","#ff0");
     $("h1").last().css("background","red");
-
 });
+
+//아래와 같이도 쓸 수 있다
+/*
+$(document).ready(function(){
+    var color = ["red","yellow","blue"];
+        $("h1").css("color",function(index){
+            return color[index];
+    });
+});
+*/
+
+/*
+$(document).ready(function(){
+    var color = ["red","yellow","white"];
+    $("h1").css({
+        color:function(index){
+            return color[index];
+        },
+        backgroundColor:"black"
+    })
+});
+*/

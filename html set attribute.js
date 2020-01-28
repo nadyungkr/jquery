@@ -13,5 +13,22 @@ $(document).ready(function(){
       $("#ndkr").attr("href", function(i, origValue){
         return origValue + "/nadyungkr/"; 
       });
-    }); 
+    });
+    var src = $("img").attr("src");
+        alert(src); //첫번째 속성값만 보여줌
+        //속성검사
+
+        //속성추가
+        /*$("img").attr({
+            "width" : "400" ,
+            "height" : "300"
+        });*/
+
+        //속성추가 2번째
+        $("img").attr("width",function(index) {
+            return (index + 1) * 100;
+        });
+    //data h5의 data-index를 삭제하라
+    $("h5").removeAttr("data-index");
+
   });
