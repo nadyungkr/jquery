@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .reverse{
+            background:#000;
+            color:#fff;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="on 이벤트연결.js"></script>
+</head>
+<body>
+    <p>header를 클릭해보세요</p>
+    <h1>header-1</h1>
+    <h1>header-2</h1>
+    <h1>header-3</h1>
+    <p>첫번째 방법 $(selector).on(eventName,function(event){});</p>
+    <p>두번째 방법 mouseenter + mouseleave</p>
+    <p>세번째 방법 hover() - mouseenter와 mouseleave 동시 연결
+        $(selector).hover(function(event){},function(event){});
+    </p>
+</body>
+</html>
