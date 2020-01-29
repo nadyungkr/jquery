@@ -3,6 +3,9 @@
 <code>window.onload = function(){};</code>와
 <code>$(function(){});</code>는 같다
 
+## jquery 최신으로 사용하기
+<code><script src="https://code.jquery.com/jquery-latest.min.js"></script></code>
+
 ### jQuery Library
 > jquery Library is Javascript.
 
