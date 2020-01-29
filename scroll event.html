@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>scroll event</title>
+    <style>
+    header,div,footer,body,h1{
+        margin:0;
+        padding:0;
+        }
+    header{
+        z-index:2;
+        position:fixed;
+        width:100%;
+        background: orange;
+        padding:10px 0;
+        }
+    h1{
+        width:150px;
+        height:60px;
+        border:1px solid #000;
+    }
+    div{
+        position:relative;
+        top:40px;
+        }
+    img{
+        width:100%;
+        height:600px;
+    }
+    footer{
+        height:500px;
+        width:100%;
+        background:#000;
+    }
+    .bg{
+        background:orangered;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="scroll event.js"></script>
+</head>
+<body>
+    <header>
+        <h1>로고</h1>
+    </header>
+    <main>
+        <div>
+            <img src="images/banner.jpg" alt="배너 가수 이미지">
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
