@@ -1,4 +1,7 @@
-# W3school jQuery 기본 문제 풀기
+# W3school jQuery Quiz
+<code>$(document).ready(function(){});</code>와
+<code>window.onload = function(){};</code>와
+<code>$(function(){});</code>는 같다
 
 ### jQuery Library
 > jquery Library is Javascript.
