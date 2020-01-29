@@ -1,0 +1,10 @@
+$(function(){
+    $("a").click(function(e){
+        $(this).css("background","blue");
+        e.preventDefault();
+        e.stopPropagation();
+    });
+    $("h1").click(function(){
+        $(this).css("background","red");
+    });
+});
