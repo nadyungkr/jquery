@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>on 연결 stopPropagation</title>
+    <style>
+        *{
+            margin:10px;
+            padding:10px;
+            border:10px solid plum;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="on 연결 stopPropagation.js"></script>
+</head>
+<body>
+    <pre>div를 클릭하면
+    "div"클릭을 #console의 뒷부분에 추가
+    p를 클릭하면
+    "p" 클릭을 #console의 뒷부분에 추가
+    span을 클릭하면
+    "span"클릭을 #console의 뒷부분에 추가
+    </pre>
+    <div id="div">div
+        <p id="p">p
+            <span id="span">span</span>
+        </p>
+    </div>
+    <section id="console"></section>
+</body>
+</html>
