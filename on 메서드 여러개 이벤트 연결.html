@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>on 메서드 여러개 이벤트 연결하기</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="on 메서드 여러개 이벤트 연결.js"></script>
+</head>
+<body>
+    <p><button class="btn1">버튼</button></p>
+    <pre>$(function(){
+        $(".btn1").on("mouseover focus",function(){
+            console.log("welcome");
+        });
+    });
+    </pre>
+    <p>on 메서드 여러개 작성할 때 $(selector).on("eventName eventName",function(){});</p>
+    <p>콘솔에 mouseover와 focus확인 해보세요</p>
+</body>
+</html>
